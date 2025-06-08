@@ -1,0 +1,14 @@
+{
+  "inputs": {
+    "fmri": {
+      "datatype": "neuro/fmri",
+      "description": "fMRI time-series data"
+    }
+  },
+  "outputs": {
+    "persistence_diagrams": {
+      "datatype": "neuro/persistence_diagrams",
+      "description": "Persistent Homology output"
+    }
+  }
+}
