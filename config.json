@@ -2,13 +2,26 @@
   "inputs": {
     "fmri": {
       "datatype": "neuro/fmri",
-      "description": "fMRI time-series data"
+      "description": "fMRI time-series data in NIfTI format",
+      "required": true
     }
   },
   "outputs": {
     "persistence_diagrams": {
       "datatype": "neuro/persistence_diagrams",
-      "description": "Persistent Homology output"
+      "description": "Persistent Homology diagrams generated from fMRI data"
+    }
+  },
+  "parameters": {
+    "max_dimension": {
+      "type": "number",
+      "default": 2,
+      "description": "Maximum homology dimension to compute"
+    },
+    "max_edge_length": {
+      "type": "number",
+      "default": 1.0,
+      "description": "Maximum edge length for Rips filtration"
     }
   }
 }
