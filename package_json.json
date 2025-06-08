@@ -1,0 +1,33 @@
+{
+  "name": "fmri-persistent-homology",
+  "version": "1.0.0",
+  "description": "Compute persistent homology from fMRI functional connectivity data",
+  "main": "main",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/fmri-persistent-homology-app.git"
+  },
+  "keywords": [
+    "fmri",
+    "persistent-homology",
+    "topological-data-analysis",
+    "brain-connectivity",
+    "neuroimaging"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "brainlife": {
+    "type": "app",
+    "dockerImage": "brainlife/fmri-persistent-homology:1.0",
+    "tags": [
+      "fmri",
+      "connectivity", 
+      "topology",
+      "persistent-homology"
+    ]
+  }
+}

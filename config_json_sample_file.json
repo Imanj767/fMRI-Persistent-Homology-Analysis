@@ -1,0 +1,11 @@
+{
+  "_comment": "Sample configuration file for fMRI Persistent Homology App",
+  "fmri": "input/func.nii.gz",
+  "atlas": "input/atlas.nii.gz",
+  "n_regions": 100,
+  "maxdim": 1,
+  "connectivity_method": "correlation",
+  "low_pass": 0.1,
+  "high_pass": 0.01,
+  "t_r": 2.0
+}
